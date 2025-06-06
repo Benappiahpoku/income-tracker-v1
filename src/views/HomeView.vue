@@ -83,13 +83,18 @@
           <IncomeListView />
         </div>
       </section>
+      <Divider />
+
+      <AppSwitcher type='income' />
     </main>
   </div>
 </template>
 
 <script setup lang="ts">
 // ===== Imports =====
+import Divider from '@/components/base/Divider.vue';
 import IncomeListView from './IncomeListView.vue'
+import AppSwitcher from '@/components/layout/AppSwitcher.vue';
 </script>
 
 <style scoped>
